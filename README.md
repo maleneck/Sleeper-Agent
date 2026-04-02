@@ -86,3 +86,8 @@ loose (partial overlap with same label)
 l_recall:    0.7401656314699793
 l_precision: 0.72165991902834
 l_slot-f1:   0.7307956404129078
+
+## Resources
+https://huggingface.co/docs/transformers/tasks/token_classification?utm_source=chatgpt.com
+https://medium.com/@whyamit101/fine-tuning-bert-for-named-entity-recognition-ner-b42bcf55b51d
+As well as ChatGPT which helped us with alligning the predictions to the conll format.
