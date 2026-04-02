@@ -4,7 +4,7 @@ This repo consistst of 'BaselineIndusNLP.py' which let's you train and tune the 
 https://huggingface.co/nasa-impact/nasa-smd-ibm-v0.1 
 Here also lies our prediction on the test split and a requirements.txt which we recomend you use a local envirroment with.
 This recomendaten stems from the fact that non-local enviroments containing torch haven't been working with this code.
-## Usage.
+## Usage Idea.
 To run the 'BaselineIndusNLP.py' make sure these files are in the same folder as the 'BaselineIndusNLP.py' file.  
 'en_ewt-ud-train.iob2',  
 'en_ewt-ud-dev.iob2',  
@@ -19,6 +19,18 @@ You can now run the 'span_f1.py' file with the golden standard test file against
 python span_f1.py en_ewt-ud-test.iob2 pred_test_ds.iob2
   
 Of course this file 'en_ewt-ud-test.iob2' should be the name of the golden standard file you have for test.
+
+## Follow along
+Download this github repo  
+Exctract in your downloads  
+Download or copy the datafiles + span_f1 into the repo folder  
+Go to terminal  
+Change directory to the 'Sleeper-agent-main' folder  
+Create venv ```python -m venv SleeperVenv```  
+Activate your venv ```SleeperVenv\Scripts\activate ```  
+Use 'requirements.txt' to get the appropiate installs. ```pip install -r requirements.txt ```  
+Run the 'BaselineIndusnlp.py' file ``` python BaselineIndusNLP.py```  
+Run the 'span_f1.py' file with your gold standard test file and our prediction file. ```python span_f1.py en_ewt-ud-test.iob2 pred_test.iob2```  
  
 ## Expected output
 You can expect this type of output when runnning the 'BaselineIndusNLP.py' file
