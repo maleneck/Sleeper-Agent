@@ -5,16 +5,20 @@ https://huggingface.co/nasa-impact/nasa-smd-ibm-v0.1
 Here also lies our prediction on the test split and a requirements.txt which we recomend you use a local envirroment with.
 This recomendaten stems from the fact that non-local enviroments containing torch haven't been working with this code.
 ## Usage.
-To run the 'BaselineIndusNLP.py' make sure these files are in the same folder as the 'BaselineIndusNLP.py' file.
-'en_ewt-ud-train.iob2',
-'en_ewt-ud-dev.iob2',
-'en_ewt-ud-test-masked.iob2',
-'span_f1.py'
+To run the 'BaselineIndusNLP.py' make sure these files are in the same folder as the 'BaselineIndusNLP.py' file.  
+'en_ewt-ud-train.iob2',  
+'en_ewt-ud-dev.iob2',  
+'en_ewt-ud-test-masked.iob2',  
+'span_f1.py'  
 
-You can run the 'BaselineIndusNLP.py' file with from terminal within your virtual enviorment and you will get both pred_test_ds.iob2 and pred_dev.iob2, we used pred_dev.iob2 to test that we could work with the 'span_f1.py', but you would likely just need the pred_test_ds.iob2 file. 
-You can now run the 'span_f1.py' file with the golden standard test file against the predicted 'pred_test_ds.iob2' file like such 
- python span_f1.py en_ewt-ud-test.iob2 pred_test_ds.iob2
- of course this file en_ewt-ud-test.iob2 should be the name of the golden standard file you have for test.
+within the downloaded repo, you can create a virtual enviorment using the requirements.txt file for all the downloads.  
+You can run the 'BaselineIndusNLP.py' file from terminal within your virtual enviorment and you will get both pred_test_ds.iob2 and pred_dev.iob2.  
+We used pred_dev.iob2 to test that we could work with the 'span_f1.py', but you would likely just need the pred_test_ds.iob2 file.  
+You can now run the 'span_f1.py' file with the golden standard test file against the predicted 'pred_test_ds.iob2' file like such   
+  
+python span_f1.py en_ewt-ud-test.iob2 pred_test_ds.iob2
+  
+Of course this file 'en_ewt-ud-test.iob2' should be the name of the golden standard file you have for test.
  
 ## Expected output
 You can expect this type of output when runnning the 'BaselineIndusNLP.py' file
