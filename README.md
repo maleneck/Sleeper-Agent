@@ -88,6 +88,7 @@ l_precision: 0.72165991902834
 l_slot-f1:   0.7307956404129078
 
 ## Resources
+https://huggingface.co/learn/llm-course/chapter2/1
 https://huggingface.co/docs/transformers/tasks/token_classification?utm_source=chatgpt.com 
 https://github.com/huggingface/notebooks/blob/main/examples/token_classification.ipynb
 https://medium.com/@whyamit101/fine-tuning-bert-for-named-entity-recognition-ner-b42bcf55b51d  
