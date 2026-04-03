@@ -2,8 +2,8 @@
 ## Description
 This repo consistst of 'BaselineIndusNLP.py' which let's you train and tune the Indus model from Huggin Face libaray.
 https://huggingface.co/nasa-impact/nasa-smd-ibm-v0.1 
-Here also lies our prediction on the test split and a requirements.txt which we recomend you use a local envirroment with.
-This recomendaten stems from the fact that non-local enviroments containing torch haven't been working with this code.
+Here also lies our prediction on the test split and a requirements.txt which we recomend you use a local environment with.
+This recommendation stems from the fact that non-local enviroments containing torch haven't been working with this code.
 ## Usage Idea.
 To run the 'BaselineIndusNLP.py' make sure these files are in the same folder as the 'BaselineIndusNLP.py' file.  
 'en_ewt-ud-train.iob2',  
