@@ -3,7 +3,7 @@
 This repo consistst of 'BaselineIndusNLP.py' which let's you train and tune the Indus model from Huggin Face libaray.
 https://huggingface.co/nasa-impact/nasa-smd-ibm-v0.1 
 Here also lies our prediction on the test split and a requirements.txt which we recomend you use a local environment with.
-This recommendation stems from the fact that non-local enviroments containing torch haven't been working with this code.
+This recommendation stems from the fact that non-local environments containing torch haven't been working with this code.
 ## Usage Idea.
 To run the 'BaselineIndusNLP.py' make sure these files are in the same folder as the 'BaselineIndusNLP.py' file.  
 'en_ewt-ud-train.iob2',  
@@ -88,6 +88,7 @@ l_precision: 0.72165991902834
 l_slot-f1:   0.7307956404129078
 
 ## Resources
-https://huggingface.co/docs/transformers/tasks/token_classification?utm_source=chatgpt.com  
+https://huggingface.co/docs/transformers/tasks/token_classification?utm_source=chatgpt.com 
+https://github.com/huggingface/notebooks/blob/main/examples/token_classification.ipynb
 https://medium.com/@whyamit101/fine-tuning-bert-for-named-entity-recognition-ner-b42bcf55b51d  
 As well as ChatGPT which helped us with alligning the predictions to the conll format.  
