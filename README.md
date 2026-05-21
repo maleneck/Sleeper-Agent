@@ -1,13 +1,13 @@
-##This repo consists of the course project made by Sleeper-Agents.
+## This repo consists of the course project made by Sleeper-Agents.
 
-##Usage Idea:
+## Usage Idea:
 
--Make a new virtual environment using 'requirements_new.txt'
--Run 'pipeline.py'
+- Make a new virtual environment using 'requirements_new.txt'
+- Run 'pipeline.py'
 
 After you ran pipeline you will find results in files generated called 'clean_data_robustness_results.xlsx' for the zero-shot experiment and 'Trained_Robustness_results.xlsx' for the second experiment.
 
-##AI declaration
+## AI declaration
 
 Readable terminal cell output
 Plot configuration
