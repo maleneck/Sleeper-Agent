@@ -1,0 +1,8 @@
+nlpaug
+datasets==4.8.4
+numpy==2.4.3
+torch==2.11.0
+evaluate
+transformers==5.4.0 
+pandas
+seqeval
