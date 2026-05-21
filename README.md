@@ -9,8 +9,8 @@ After you ran pipeline you will find results in files generated called 'clean_da
 
 ##AI declaration
 
-• Print statements aesthetics
-• Plot configuration
-Within the code, AI chatbots has aided in question
-answering as well as generative AI. All code was
-partially aided by AI
+\begin{itemize}
+    \item Readable terminal cell output
+    \item Plot configuration
+\end{itemize}
+Claude AI has aided us with finding resources such as the nlpAUG library for data augmentation, as well as for debugging such as code alignment.
