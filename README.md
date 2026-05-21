@@ -9,8 +9,6 @@ After you ran pipeline you will find results in files generated called 'clean_da
 
 ##AI declaration
 
-\begin{itemize}
-    \item Readable terminal cell output
-    \item Plot configuration
-\end{itemize}
+Readable terminal cell output
+Plot configuration
 Claude AI has aided us with finding resources such as the nlpAUG library for data augmentation, as well as for debugging such as code alignment.
