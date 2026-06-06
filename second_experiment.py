@@ -126,7 +126,7 @@ for current_model in models_to_test:
             batched=True
         )
         """I have played around with learning rate tried 2e-5 and 1e-5, I've tried 2,3,5 and 10 epochs per train. I've added 1 more model seeds so 3 seed in total..."""
-        seeds=[42, 123, 999, 12,5,10,67,21,994,10]
+        seeds=[42, 123, 999]
         for seed in seeds:
             args = TrainingArguments(
                 output_dir="./temp_checkpoints", 
